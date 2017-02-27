@@ -1,0 +1,4 @@
+--- # Handlers for Apache2 role
+
+- name: restart HTTPD
+  service: name=httpd state=restarted enabled=yes

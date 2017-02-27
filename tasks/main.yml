@@ -1,0 +1,7 @@
+--- # salandur.php tasks
+
+- name: install httpd
+  package:
+    name: httpd
+    state: latest
+  notify: restart HTTPD

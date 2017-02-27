@@ -1,0 +1,15 @@
+--- # salandur.apache2 meta
+
+galaxy_info:
+  author: Jeroen Ruijgers
+  company: Salandur
+  description: Manages Apache2
+  license: MIT
+  platforms:
+  - name: EL
+    versions:
+    - 6
+  categories:
+  - apache
+
+dependencies: {}
