@@ -5,3 +5,4 @@
     name: httpd
     state: latest
   notify: restart HTTPD
+  become: yes
